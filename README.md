@@ -1,6 +1,6 @@
 # BetterThemis
 
-![image](https://user-images.githubusercontent.com/51029895/202859479-42b7504c-a375-4440-8817-5a0f3fb5cb1b.png)
+![image](https://user-images.githubusercontent.com/51029895/202865656-93caf639-1723-4fc4-b6ec-1350887d299a.png)
 
 A userscript that improves the look of [Themis](https://themis.ii.uni.wroc.pl/) a ton by using JavaScript and CSS. Feel free to audit the code if you'd like to!
 
