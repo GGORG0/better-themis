@@ -34,16 +34,16 @@ if(typeof resultbox !== "undefined"){
             const srcSplit = el.src.split("/");
             switch (srcSplit[srcSplit.length - 1]){
               case "testac.png":
-                newSrc = "https://i.imgur.com/KiYVBEE.png";
+                newSrc = "https://github.com/GGORG0/better-themis/blob/master/icons/problemAccepted.png?raw=true";
                 break;
               case "testtle.png":
-                newSrc = "https://i.imgur.com/gI6201p.png";
+                newSrc = "https://github.com/GGORG0/better-themis/blob/master/icons/problemTimeLimit.png?raw=true";
                 break;
               case "testwa.png":
-                newSrc = "https://i.imgur.com/hDQghTz.png";
+                newSrc = "https://github.com/GGORG0/better-themis/blob/master/icons/problemWrongAnswer.png?raw=true";
                 break;
               case "testsegv.png":
-                newSrc = "https://i.imgur.com/wyq46F0.png";
+                newSrc = "https://github.com/GGORG0/better-themis/blob/master/icons/problemSegFault.png?raw=true";
                 break;
               default:
                 newSrc = el.src;
@@ -74,44 +74,44 @@ if(typeof status_box !== "undefined"){
           statusIcon.style.width = statusIcon.style.height = "3em";
           switch (statusBall.className){
             case "status-ac": {
-              statusIcon.src = "https://i.imgur.com/KiYVBEE.png";
+              statusIcon.src = "https://github.com/GGORG0/better-themis/blob/master/icons/problemAccepted.png?raw=true";
               break;
             }
             case "status-run": {
-              statusIcon.src = "https://i.imgur.com/SPBaOAd.png";
+              statusIcon.src = "https://github.com/GGORG0/better-themis/blob/master/icons/problemRunning.png?raw=true";
               break;
             }
             case "status-wait": {
-              statusIcon.src = "https://i.imgur.com/B2pLiB5.png";
+              statusIcon.src = "https://github.com/GGORG0/better-themis/blob/master/icons/problemWaiting.png?raw=true";
               break;
             }
             case "status-fail": {
               switch(submission.querySelector(".problem-status-res").textContent){
                 case "compilation error": {
-                  statusIcon.src = "https://i.imgur.com/6WI7zzr.png";
+                  statusIcon.src = "https://github.com/GGORG0/better-themis/blob/master/icons/problemCompilationError.png?raw=true";
                   break;
                 }
                 case "misclick": {
-                  statusIcon.src = "https://i.imgur.com/QW65czn.png";
+                  statusIcon.src = "https://github.com/GGORG0/better-themis/blob/master/icons/problemMissclick.png?raw=true";
                   break;
                 }
                 case "seg. fault": {
-                  statusIcon.src = "https://i.imgur.com/wyq46F0.png";
+                  statusIcon.src = "https://github.com/GGORG0/better-themis/blob/master/icons/problemSegFault.png?raw=true";
                   break;
                 }
                 case "time limit exceeded": {
-                  statusIcon.src = "https://i.imgur.com/gI6201p.png";
+                  statusIcon.src = "https://github.com/GGORG0/better-themis/blob/master/icons/problemTimeLimit.png?raw=true";
                   break;
                 }
               }
               break;
             }
             case "status-unkn": {
-              statusIcon.src = "https://i.imgur.com/aZRaKw0.png";
+              statusIcon.src = "https://github.com/GGORG0/better-themis/blob/master/icons/problemUnknown.png?raw=true";
               break;
             }
             default: {
-              statusIcon.src = "https://i.imgur.com/aZRaKw0.png";
+              statusIcon.src = "https://github.com/GGORG0/better-themis/blob/master/icons/problemUnknown.png?raw=true";
               break;
             }
           }
@@ -399,7 +399,7 @@ if(typeof status_box !== "undefined"){
     {
       const barIcon = document.createElement("img");
       barIcon.id = "title-icon";
-      barIcon.src = "https://i.imgur.com/S5EZM6p.png";
+      barIcon.src = "https://github.com/GGORG0/better-themis/blob/master/icons/themisLogo.png?raw=true";
       barTitle.appendChild(barIcon);
     }
 
@@ -484,7 +484,9 @@ if(typeof status_box !== "undefined"){
     const sectionStatus = section.querySelector("div.section-type");
     sectionStatus.textContent = "";
     const statusIcon = document.createElement("img");
-    statusIcon.src = sectionStatus.classList.contains("section-signup") ? "https://i.imgur.com/WwdlDKe.png" : "https://i.imgur.com/0N7flFF.png";
+    statusIcon.src = sectionStatus.classList.contains("section-signup")
+      ? "https://github.com/GGORG0/better-themis/blob/master/icons/groupPasswordRequired.png?raw=true"
+      : "https://github.com/GGORG0/better-themis/blob/master/icons/groupRegistered.png?raw=true";
     sectionStatus.appendChild(statusIcon);
 
     section.addEventListener("click", () => {
@@ -498,7 +500,7 @@ if(typeof status_box !== "undefined"){
 
   for(const checkmark of document.querySelectorAll("#content > #secind-left > #problems > tbody > tr > .problem-icon > .problem-done")){
     const checkmarkImage = document.createElement("img");
-    checkmarkImage.src = "https://i.imgur.com/fJk5wsY.png";
+    checkmarkImage.src = "https://github.com/GGORG0/better-themis/blob/master/icons/problemDone.png?raw=true";
     checkmark.appendChild(checkmarkImage);
   }
 
@@ -510,15 +512,15 @@ if(typeof status_box !== "undefined"){
     const buttonImage = document.createElement("img");
     switch (problemControl.id){
       case "problem-status": {
-        buttonImage.src = "https://i.imgur.com/ggtQh93.png";
+        buttonImage.src = "https://github.com/GGORG0/better-themis/blob/master/icons/submissions.png?raw=true";
         break;
       }
       case "problem-best": {
-        buttonImage.src = "https://i.imgur.com/6AtElmJ.png";
+        buttonImage.src = "https://github.com/GGORG0/better-themis/blob/master/icons/ranks.png?raw=true";
         break;
       }
       case "problem-submit": {
-        buttonImage.src = "https://i.imgur.com/58oGEWo.png";
+        buttonImage.src = "https://github.com/GGORG0/better-themis/blob/master/icons/submit.png?raw=true";
         break;
       }
     }
