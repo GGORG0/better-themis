@@ -3,7 +3,7 @@
 // @version      0.1
 // @updateURL    https://github.com/GGORG0/better-themis/raw/master/BetterThemis.user.js
 // @downloadURL  https://github.com/GGORG0/better-themis/raw/master/BetterThemis.user.js
-// @homepage     https://github.com/GGORG0/better-themis/
+// @homepage     https://github.com/GGORG0/better-themis
 // @description  make themis prettier
 // @author       GGORG
 // @match        https://themis.ii.uni.wroc.pl/*
