@@ -9,3 +9,12 @@ A userscript that improves the look of [Themis](https://themis.ii.uni.wroc.pl/) 
 You'll need a userscript manager, like [Tampermonkey](https://www.tampermonkey.net/) (click to install).
 After installed, click [HERE](https://github.com/GGORG0/better-themis/raw/master/BetterThemis.user.js) to get the userscript.
 Then, visit Themis and enjoy!
+
+## TODO
+
+ - Optimize for mobile
+ - Ranks page
+ - Group submission history (full screen) page
+ - Account settings page
+ - Color scheme chooser
+
