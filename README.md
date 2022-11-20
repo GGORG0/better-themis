@@ -13,7 +13,6 @@ Then, visit Themis and enjoy!
 ## TODO
 
  - Optimize for mobile
- - Group ranks page
  - Group submission history (full screen) page
  - Account settings page
  - Color scheme chooser
