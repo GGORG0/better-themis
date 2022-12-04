@@ -13,8 +13,6 @@ Then, visit Themis and enjoy!
 ## TODO
 
  - Optimize for mobile
- - Group submission history (full screen) page
  - Account settings page
  - Color scheme chooser
- - Fix submission icons loading after 1 second by hooking into the refresher
 
